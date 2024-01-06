@@ -102,9 +102,7 @@ STEP 5:
 
                   az webapp create --resource-group <ChooseResourceGroupName> --plan <AzureAppPlanName>--name <ChooseWebAppName> --multicontainer-config-type compose --multicontainer-config-file docker-compose.yml
 
-
-                  Eg: az webapp create --resource-group RSG1 --plan fasterwebapps --name leavegpt --multicontainer-config-file docker-compose.yml
-
+                  Eg: az webapp create --resource-group RSG1 --plan fasterwebapps --name leavegpt --multicontainer-config-type compose --multicontainer-config-file docker-compose.yml
 ```-- The above line of code will reference the "docker-compose.yml" file in the directory folder to get the settings on how the file should be created. 
 -- This file will have information regaring which AzureContainerRegistry to use for the docker image that we need to run.
 -- It will also host information about the port that the app should be served in. Remember that the port must be consistent through all the files created for the application to work.```
