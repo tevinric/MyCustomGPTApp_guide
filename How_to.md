@@ -81,6 +81,9 @@ STEP 3:
 
                   docker tag <ChooseContianerName>  <ChooseAzureContainerRegistryName>.azurecr.io/<ChooseContianerName>
 
+                  Eg: docker tag leavegpt webapps.azurecr.io.leavegpt
+                  for the docker container = leavgpt and containerRegistry=webapps
+
 3.8 Now that the container is ready, we can push the docker image into the AzureContainerRegistry in Azure:
 
                   docker push <ChooseAzureContainerRegistryName>.azurecr.io/<ChooseContianerName>
