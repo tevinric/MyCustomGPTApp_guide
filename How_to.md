@@ -11,12 +11,9 @@ Prerequisites:
 Step 1:
 1. Create a folder on local PC to hold the following files (use templates of the files from the customgptapp_tutorial_repo):
    
-   a. appy.py
+   a. appy.py:               This will be the python script that will create and execute the application.
    
-   This will be the python script that will create and execute the application.
-   
-   b. requirements.txt
-   --  This is a simple text file that will list all of the python packages required to runn the app.py file above. Include any specific package versions if applicable
+   b. requirements.txt:      This is a simple text file that will list all of the python packages required to runn the app.py file above. Include any specific package versions if applicable
    
    c. docker-compose.yml --  This is a yml file that will be used when creating web app which will specify how the docker image should be utilised when consumed by the app.
    
