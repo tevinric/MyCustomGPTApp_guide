@@ -100,7 +100,8 @@ STEP 5:
 
 5.2. Use th following line of code in the CMD terminal to create the Azure WebApp: 
 
-                  az webapp create --resource-group <ChooseResourceGroupName> --plan <AzureAppPlanName>--name <ChooseWebAppName> --multicontainer-config-    type compose --multicontainer-config-file docker-compose.yml
+                  az webapp create --resource-group <ChooseResourceGroupName> --plan <AzureAppPlanName>--name <ChooseWebAppName> --multicontainer-config-type compose --multicontainer-config-file docker-compose.yml
+
 
                   Eg: az webapp create --resource-group RSG1 --plan fasterwebapps --name leavegpt --multicontainer-config-file docker-compose.yml
 
