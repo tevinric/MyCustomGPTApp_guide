@@ -11,7 +11,8 @@ Prerequisites:
 Step 1:
 1. Create a folder on local PC to hold the following files (use templates of the files from the customgptapp_tutorial_repo):
    
-   a. appy.py:               This will be the python script that will create and execute the application.
+   a. appy.py:
+               This will be the python script that will create and execute the application.
    
    b. requirements.txt:      This is a simple text file that will list all of the python packages required to runn the app.py file above. Include any specific package versions if applicable
    
